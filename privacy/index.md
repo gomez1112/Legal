@@ -4,28 +4,49 @@
 **Developer/Publisher:** Transfinite LLC (“we”, “us”)  
 **Contact:** gerardgomez11@outlook.com  
 
-This Privacy Policy explains how our apps (“Apps”) handle information. We design our Apps to be privacy-forward: data is stored on your device, and optional iCloud sync uses Apple’s CloudKit.
+This Privacy Policy explains how our apps (“Apps”) handle information. We design our Apps to be privacy-forward: your content is stored on your device. Optional iCloud sync uses Apple’s CloudKit.
 
-> **Summary**
-> - Your content (like chats, notes, and outputs) is stored **on-device**. The App uses Apple Foundation Models.
-> - If you enable iCloud, your content can sync using **Apple CloudKit**.
-> - We do **not** run our own servers for your content, and we do **not** sell your data.
-> - Purchases are processed by Apple via **StoreKit**.
+---
+
+## AI Processing (On-Device) — Ari (ai.assistant)
+
+Ari uses **Apple’s Foundation Models framework** to generate responses and summaries **on your device**.
+
+### Data processed for AI features (when you use them)
+
+- The text you type into the app (e.g., prompts, chats, titles, notes)
+- If you choose to import a file: the text extracted from user-selected PDFs/images for summarization or analysis
+
+### Who data is sent to
+
+- **No third-party AI service receives your prompts/files/content.** We do not send your prompts, files, or conversation content to OpenAI, Anthropic, Google, or any other third-party AI provider for inference.
+- If you enable iCloud Sync, your content may be transmitted to **Apple iCloud/CloudKit** for storage and syncing between your devices.
+
+---
+
+## Summary
+
+- Your content (like chats, notes, and outputs) is stored **on-device**.
+- Ari’s AI features run **on-device** using Apple Foundation Models.
+- If you enable iCloud, your content can sync using **Apple CloudKit**.
+- We do **not** run our own servers for your content, and we do **not** sell your data.
+- Purchases are processed by Apple via **StoreKit**.
 
 ---
 
 ## 1. Scope
 
-This policy applies to all Apps published by transfinite LLC, unless an App includes an in-app link to a different, app-specific policy.
+This policy applies to all Apps published by Transfinite LLC unless an App includes an in-app link to a different, app-specific policy.
 
 ---
 
 ## 2. Information You Provide
 
 Depending on the App, you may provide:
-- **User content**: text you type (e.g., chats, notes, drafts), tags, titles, and other app data.
-- **Files you import**: PDFs and images you choose to import for analysis or extraction.
-- **Settings and preferences**: such as tone, display preferences, and feature selections.
+
+- **User content:** text you type (e.g., chats, notes, drafts), tags, titles, and other app data
+- **Files you import:** PDFs and images you choose to import for analysis or extraction
+- **Settings and preferences:** such as tone, display preferences, and feature selections
 
 We use this information **to provide the app’s functionality** (e.g., storing conversations, generating outputs, organizing items).
 
@@ -43,8 +64,10 @@ Some Apps include on-device intelligence features (for example, summarizing, rew
 
 If you enable iCloud for an App, it may sync content using **Apple CloudKit**, which helps keep your data consistent across your devices signed into the same Apple ID.
 
-- Data synced through CloudKit is handled by Apple under Apple’s privacy practices.
-- We do not operate the CloudKit service; Apple does.
+- **Who data is sent to:** Apple (iCloud/CloudKit) for syncing and storage
+- Data synced through CloudKit is handled by Apple under Apple’s privacy practices
+- We do not operate the CloudKit service; Apple does
+- If iCloud Sync is enabled, your conversations, saved outputs (artifacts), and library items may be stored in your private iCloud database using CloudKit so they can sync across your devices
 
 If you disable iCloud for the App (or your device), content stays local to your device.
 
@@ -53,9 +76,10 @@ If you disable iCloud for the App (or your device), content stays local to your 
 ## 5. Purchases and Subscriptions (StoreKit)
 
 If an App offers subscriptions or purchases:
-- Payments are processed by Apple via **StoreKit**.
-- We do not receive your full payment details (like your card number).
-- Apple may provide us limited information such as subscription status (e.g., active/expired) to unlock features.
+
+- Payments are processed by Apple via **StoreKit**
+- We do not receive your full payment details (like your card number)
+- Apple may provide us limited information such as subscription status (e.g., active/expired) to unlock features
 
 Refunds and billing are managed through Apple.
 
@@ -64,27 +88,30 @@ Refunds and billing are managed through Apple.
 ## 6. What We Collect Automatically
 
 Our goal is to minimize data collection. Depending on the App configuration and Apple platform behavior, the App may process:
-- **Basic diagnostics** (e.g., crashes) if you have enabled sharing diagnostics with developers in your device settings and Apple provides those reports.
 
-If an App includes analytics or third-party SDKs, it will be disclosed in the **App-Specific Addendum** section below.
+- **Basic diagnostics** (e.g., crashes) if you have enabled sharing diagnostics with developers in your device settings and Apple provides those reports
+
+If an App includes analytics or third-party SDKs, it will be disclosed in the **App-Specific Addendum** below.
 
 ---
 
 ## 7. What We Do NOT Do
 
 Unless explicitly stated in an App-Specific Addendum, we do not:
+
 - Sell your personal data
 - Track you across apps and websites
 - Run our own servers to store your content
 - Share your content with advertisers
+- Share your prompts/files/content with third-party AI providers for inference
 
 ---
 
 ## 8. Data Retention
 
-- Your content remains on your device until you delete it.
-- If iCloud sync is enabled, deletion may also propagate across devices and iCloud, depending on Apple’s sync behavior.
-- If you uninstall an App, local data is removed from that device (iCloud-synced data may persist depending on Apple’s system behavior and your iCloud settings).
+- Your content remains on your device until you delete it
+- If iCloud sync is enabled, deletion may also propagate across devices and iCloud, depending on Apple’s sync behavior
+- If you uninstall an App, local data is removed from that device (iCloud-synced data may persist depending on Apple’s system behavior and your iCloud settings)
 
 ---
 
@@ -103,8 +130,10 @@ Our Apps are not intended for children under 13 unless the App listing explicitl
 ## 11. Your Choices
 
 Depending on the App and device settings, you may be able to:
+
 - Delete content inside the App (threads, messages, artifacts, library items)
 - Disable iCloud sync for the App
+- Disable AI features in the App’s Settings
 - Control diagnostic sharing in your Apple device settings
 
 ---
@@ -124,18 +153,25 @@ If you have questions about privacy, contact: gerardgomez11@outlook.com
 # App-Specific Addendum
 
 ## Ari (ai.assistant)
+
 - **Stored content:** chats, saved outputs (artifacts), library items, preferences
+- **AI processing:** on-device using Apple Foundation Models
+- **User permission:** disclosure + confirmation required before first AI use; can be disabled in Settings
 - **iCloud:** optional CloudKit sync
 - **Imports:** user-selected PDFs/images; text may be extracted on-device
-- **Network:** none beyond Apple services required for iCloud and StoreKit
+- **Network:** Apple services only (CloudKit for optional sync; StoreKit for purchases). No third-party AI providers receive user content.
 
 ## Mergeform
-- **Stored content:** pdf, images
-- **Imports:** user-selected PDFs/images; text may be extracted on-device
-- **Network:** none beyond Apple services required for iCloud and StoreKit
 
-## Recall Matri
+- **Stored content:** PDFs, images (user-selected)
+- **Processing:** on-device extraction/summarization (if available in the app)
+- **iCloud:** optional CloudKit sync (if enabled)
+- **Network:** Apple services only (CloudKit/StoreKit). No third-party AI providers receive user content.
+
+## Recall Matrix
+
+None
 
 ## SpotClock
-- **Location:** stores user location on device
 
+- **Location:** stores user location on device  
